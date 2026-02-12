@@ -1,0 +1,95 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ===========================
+# Virtual Environments
+# ===========================
+.venv/
+venv/
+ENV/
+env/
+
+# ===========================
+# Flask
+# ===========================
+instance/
+*.db
+*.sqlite3
+migrations/
+
+# ===========================
+# Environment Variables
+# ===========================
+.env
+.env.*
+!.env.example
+
+# ===========================
+# IDE / Editor
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Agentic / AI Workflow
+# ===========================
+.agent/
+.gemini/
+*.log
+logs/
+outputs/
+runs/
+checkpoints/
+
+# ===========================
+# Qdrant / Vector DB
+# ===========================
+qdrant_storage/
+qdrant_data/
+
+# ===========================
+# Docker
+# ===========================
+docker-compose.override.yml
+
+# ===========================
+# Testing
+# ===========================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ===========================
+# Distribution / Packaging
+# ===========================
+*.whl
+*.tar.gz
+
+# ===========================
+# Misc
+# ===========================
+*.bak
+*.tmp
+tmp/
+temp/
+node_modules/
